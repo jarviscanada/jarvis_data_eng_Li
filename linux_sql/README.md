@@ -79,6 +79,8 @@ Add this to the crontab file
 
 The system consists of multiple Linux hosts that collect hardware and usage data, which is then stored in a centralized PostgreSQL database running in a Docker container.
 
+![my image](./assets/architecture.drawio.png)
+
 ## Scripts
 
 ### psql_docker.sh
