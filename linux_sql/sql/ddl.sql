@@ -1,4 +1,6 @@
 -- Create a host_info table if it does not exist
+\c host_agent;
+
 CREATE TABLE if NOT EXISTS host_info
   (
      id               SERIAL NOT NULL,
