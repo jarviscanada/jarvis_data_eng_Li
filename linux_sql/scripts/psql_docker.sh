@@ -10,8 +10,8 @@ db_password=$3
 sudo systemctl status docker || sudo systemctl start docker
 
 # Check container status (try the following cmds on terminal)
-#docker container inspect jrvs-psql
-#container_status=$?
+docker container inspect jrvs-psql
+container_status=$?
 
 # User switch case to handle create|stop|start options
 case $cmd in
