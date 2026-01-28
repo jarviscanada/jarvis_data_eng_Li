@@ -47,9 +47,21 @@ CREATE TABLE cd.facilities (
 
 ###### Question 1: Show all members 
 
+select * from cd.members;
+
+###### Question 2: Add row of data in facilities table
+
+insert into cd.facilities (facid, name, membercost, guestcost, initialoutlay, monthlymaintenance)
+values (9,'Spa',20,30,100000,800);
+
+###### Question 3:
+
+insert into cd.facilities (facid, name, membercost, guestcost, initialoutlay, monthlymaintenance)
+values ((select max(facid) + 1 from cd.facilities),'Spa', 20, 30, 100000, 800);
 
 
-###### Question 2: Lorem ipsum...
+
+
 
 
 
