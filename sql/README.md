@@ -54,13 +54,111 @@ select * from cd.members;
 insert into cd.facilities (facid, name, membercost, guestcost, initialoutlay, monthlymaintenance)
 values (9,'Spa',20,30,100000,800);
 
-###### Question 3:
+###### Question 3: Insert calculated data into a table
 
 insert into cd.facilities (facid, name, membercost, guestcost, initialoutlay, monthlymaintenance)
 values ((select max(facid) + 1 from cd.facilities),'Spa', 20, 30, 100000, 800);
 
+###### Question 4: Update some existing data
+
+update cd.facilities
+set initialoutlay = 10000
+where name = 'Tennis Court 2'
+
+###### Question 5: Update a row based on the contents of another row
+
+update cd.facilities
+set membercost = (select membercost * 1.1 from cd.facilities where facid = 0),
+guestcost = (select guestcost * 1.1 from cd.facilities where facid = 0)
+where facid = 1
+
+###### Question 6: Delete all bookings
+
+delete from cd.bookings
+where bookid is not null
+
+###### Question 7: Delete a member from the cd.members table
+
+delete from cd.members
+where memid = 37
+
+###### Question 8: Control which rows are retrieved - part 2
+
+select facid, name, membercost, monthlymaintenance from cd.facilities
+where membercost < monthlymaintenance / 50.0
+and membercost > 0
+
+###### Question 9: Basic string searches
+
+select * from cd.facilities 
+where name like '%Tennis%'
+
+###### Question 10: Matching against multiple possible values
+
+select * from cd.facilities
+where facid in (1,5)
+
+###### Question 11: Working with dates
+
+select memid, surname, firstname, joindate from cd.members
+where joindate >= '2012-09-01'
+
+###### Question 12: Combining results from multiple queries
+
+select surname from cd.members union select name from cd.facilities
+
+###### Question 13: Retrieve the start times of members' bookings
+
+select b.starttime 
+from cd.bookings b
+left join cd.members m on b.memid = m.memid
+where firstname = 'David'
+and surname = 'Farrell'
+
+###### Question 14: Work out the start times of bookings for tennis courts
+
+select b.starttime as start, f.name
+from cd.bookings b
+left join cd.facilities f on b.facid = f.facid
+where name in ('Tennis Court 1','Tennis Court 2')
+and starttime between '2012-09-21' and '2012-09-22'
+order by start
+
+###### Question 15: Produce a list of all members, along with their recommender
+
+select m.firstname as memfname, m.surname as memsname, r.firstname as recfname, r.surname as recsname
+from cd.members m
+left join cd.members r on r.memid = m.recommendedby
+order by 2,1
+
+###### Question 16: Produce a list of all members who have recommended another member
+
+select distinct r.firstname, r.surname
+from cd.members m
+inner join cd.members r on m.recommendedby = r.memid 
+order by r.surname, r.firstname
+
+###### Question 18: Produce a list of all members, along with their recommender, using no joins.
+
+select distinct concat(m.firstname,' ', m.surname) as member,
+(select distinct concat(r.firstname,' ', r.surname) as recommender from cd.members r where r.memid = m.recommendedby)
+from cd.members m
+order by 1
+
+###### Question 19:
 
 
+
+###### Question 20:
+###### Question 21:
+###### Question 22:
+###### Question 23:
+###### Question 24:
+###### Question 25:
+###### Question 26:
+###### Question 27:
+###### Question 28:
+###### Question 29:
 
 
 
