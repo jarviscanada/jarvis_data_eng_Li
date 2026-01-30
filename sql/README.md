@@ -185,7 +185,7 @@ order by 1,2
 select count(distinct memid)
 from cd.bookings
 ```
-###### Question 24:
+###### Question 24: List each member's first booking after September 1st 2012
 ```
 select surname, firstname, m.memid, min(b.starttime) as starttime
 from cd.bookings b
@@ -194,26 +194,38 @@ where starttime >= '2012-09-01'
 group by 1,2,3
 order by 3
 ```
-###### Question 25:
+###### Question 25: Produce a list of member names, with each row containing the total member count
 ```
-
+select (select count(*) from cd.members) as count, firstname, surname
+from cd.members
+order by joindate
 ```
-###### Question 26:
+###### Question 26: Produce a numbered list of members
 ```
-
+select row_number() over(order by joindate), firstname, surname
+from cd.members
+order by joindate
 ```
-###### Question 27:
+###### Question 27: Output the facility id that has the highest number of slots booked, again
 ```
-
+select facid, total from (select facid, sum(slots) as total, rank() over (order by sum(slots)desc) as rank
+			   from cd.bookings
+			   group by facid) as ranked
+			   where rank = 1
 ```
-###### Question 28:
+###### Question 28: Format the names of members
 ```
-
+select concat(surname, ', ', firstname) as name from cd.members
 ```
-###### Question 29:
+###### Question 29: Find telephone numbers with parentheses
 ```
-
+select memid, telephone from cd.members where telephone similar to '%[()]%'
 ```
-
-
+###### Question 30: Count the number of members whose surname starts with each letter of the alphabet
+```
+select substring(surname, 1, 1) as letter, count(*) as count
+from cd.members
+group by 1
+order by 1
+```
 
