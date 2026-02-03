@@ -1,4 +1,6 @@
 # Introduction
+This file contains solutions for a structured PostgreSQL data model and SQL queries that answer business questions based on club data. The data would be used by business analysts to evaluate member activity, facility usage, and operational trends, as well as by developers and data engineers to practice relational modelling, query optimization, and database design using a realistic schema. This project utilizes PostgreSQL, Docker, and DBeaver to model and start the relational databases and execute SQL queries to answer these business-driven questions.
+
 
 # SQL Queries
 
