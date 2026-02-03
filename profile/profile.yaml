@@ -107,6 +107,8 @@ education:
     duration: "2020-2025"
     degree: "Bachelor of Mathematics in Computational Mathematics, Minor in Computing"
     department: "Mathematics"
+    awards_achievements: 
+      - "President's Scholarship"
 
 others:
   - title: "Activities/Hobbies"
