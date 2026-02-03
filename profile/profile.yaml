@@ -71,75 +71,47 @@ jarvis_projects:
 # Feel free to add more projects
 highlighted_projects:
   - name: "AWS Hackathon"
-    description: 
-        - "Developed an AI-powered application for the Canadian Intellectual Property Office (CIPO) that automates IP infringement detection and creates detailed asset descriptions; won 1st place in the Fall 2024 AI Hackathon."
-        - "Scraped data from CIPO website and stored images and text descriptions in AWS S3. Using Hugging Face API, was able to classify images and generate short text descriptions for each image."
-        - "Implemented simple and easy-to-use user interface through Jupyter Notebooks and Python."
+    description: "Developed an AI-powered application for the Canadian Intellectual Property Office (CIPO) that automates IP infringement detection and creates detailed asset descriptions, winning 1st place in the Fall 2024 AI Hackathon. Scraped data from the CIPO website and stored images and text descriptions in AWS S3, then utilized the Hugging Face API to classify images and generate short text descriptions for each. Implemented a simple, user-friendly interface through Jupyter Notebooks and Python."
+  
   - name: "AWS Datahub"
-    description: 
-        - "Led the creation of AI-powered data hub using AWS S3, Bedrock, and Lambda to support non-technical teams."
-        - "Supervised and distributed tasks while also developing the backend using AWS Lambda, creating guardrails using AWS Bedrock, and designing landing page."
-        - "Scraped data from Outlook and stored tutorial videos and guides in AWS S3."
-        - "Delivered project goals ahead of time with excellent feedback, resulting in improved efficiency and client satisfaction."
+    description: "Led the creation of an AI-powered data hub using AWS S3, Bedrock, and Lambda to support non-technical teams. Supervised and distributed tasks while developing the backend with AWS Lambda, creating guardrails using AWS Bedrock, and designing the landing page. Scraped data from Outlook and stored tutorial videos and guides in AWS S3, delivering project goals ahead of schedule with excellent feedback that improved efficiency and client satisfaction."
+  
   - name: "OKR Data"
-    description: 
-        - "Created Objective and Key Results data for past and current fiscal using Python, SQL and Jupyter Notebook." 
-        - "Retrieved and processed large datasets from Apache Impala using SQL, performing in-depth data cleaning and analysis with Pandas and NumPy to generate actionable insights."
-        - "Presented analytical insights to shareholders using Power BI visualizations and PowerPoint reports."
-        - "Automated reporting processes with Python scripts, reducing manual effort and report turnaround time by 30%."
+    description: "Created Objective and Key Results (OKR) data for past and current fiscal years using Python, SQL, and Jupyter Notebook. Retrieved and processed large datasets from Apache Impala using SQL, performing in-depth data cleaning and analysis with Pandas and NumPy to generate actionable insights. Presented analytical findings to shareholders through Power BI visualizations and PowerPoint reports, and automated reporting processes with Python scripts, reducing manual effort and report turnaround time by 30%."
+  
   - name: "VIP Heatmap"
-    description: 
-        - "Constructed a full-scale heat map of Ontario to visualize the geographic distribution of VIP clients."
-        - "Cleaned VIP client data with SQL and Pandas, standardizing postal codes to the first 3 digits for analysis."
-        - "Leveraged Excel's heat map visualization to map VIP client locations, providing stakeholders with clear insights into key target regions for strategic outreach."
-        - "Delivered actionable insights that guided decision making."
+    description: "Constructed a full-scale heat map of Ontario to visualize the geographic distribution of VIP clients. Cleaned VIP client data with SQL and Pandas by standardizing postal codes to the first 3 digits for analysis. Leveraged Excel's heat map visualization to map VIP client locations, providing stakeholders with clear insights into key target regions for strategic outreach and delivering actionable insights that guided decision-making."
 
 professional_experience:
   - title: "Data Scientist"
     company: "Jarvis"
     duration: "Jan 2026-present"
     description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+  
   - title: "Data Scientist"
     company: "Innovation, Science and Economic Development Canada"
     duration: "Sept 2024 – Dec 2024"
-    description: 
-        - "Developed an AI-powered application for the Canadian Intellectual Property Office that automates IP infringement detection and creates detailed asset descriptions; won 1st place in the Fall 2024 AI Hackathon."
-        - "Led the creation of AI-powered data hub using AWS S3, Bedrock, and Lambda to support non-technical teams."
-        - "Designed and delivered a comprehensive 6-week Python programming and data analysis technique course for non-technical professionals, covering fundamentals through advanced data manipulation with DataFrames."
-        - "Constructed data pipeline for weekly tasks using AWS Data Pipeline, saving 3+ hours of runtime weekly."
+    description: "Developed an AI-powered application for the Canadian Intellectual Property Office that automates IP infringement detection and creates detailed asset descriptions, winning 1st place in the Fall 2024 AI Hackathon. Led the creation of an AI-powered data hub using AWS S3, Bedrock, and Lambda to support non-technical teams. Designed and delivered a comprehensive 6-week Python programming and data analysis course for non-technical professionals, covering fundamentals through advanced data manipulation with DataFrames. Constructed a data pipeline for weekly tasks using AWS Data Pipeline, saving 3+ hours of runtime weekly."
+  
   - title: "Data Engineer"
     company: "Ontario Lottery and Gaming Corporation"
     duration: "Sept 2023 – Apr 2024"
-    description: 
-        - "Created Objective and Key Results data for past and current fiscal using Python, SQL and Jupyter Notebook."
-        - "Improved automated jobs in Cloudera Data Science Workbench, resulting in 25% speedup in run time."
-        - "Aggregated data using SQL and Python and presented it using Excel, PowerPoint, and Power BI."
-        - "Engineered new mapping method to track valuable players by region using FSA data to facilitate special events."
-        - "Provided data and touch-points to other teams as the Lead Analyst for multiple labs."
+    description: "Created Objective and Key Results (OKR) data for past and current fiscal years using Python, SQL, and Jupyter Notebook. Improved automated jobs in Cloudera Data Science Workbench, resulting in a 25% speedup in runtime. Aggregated data using SQL and Python and presented insights using Excel, PowerPoint, and Power BI. Engineered a new mapping method to track valuable players by region using FSA data to facilitate special events, and provided data and touch-points to other teams as the Lead Analyst for multiple labs."
+  
   - title: "Software Test Engineer"
     company: "Infrastructures For Information"
     duration: "Sept 2022 – Dec 2022"
-    description: 
-        - "Designed and executed 300+ test cases using QaTraq, resulting in 25% speedup in Portal application testing."
-        - "Automated 500+ test cases using i4i's UAT automation features, resulting in 20% reduction in resource usage."
-        - "Pioneered project to rewrite regression tests to improve efficiency, resulting in 10% less regression test cases."
-        - "Identified, analyzed, and documented bugs in Portal product and A4L application using QaTraq."
+    description: "Designed and executed 300+ test cases using QaTraq, resulting in a 25% speedup in Portal application testing. Automated 500+ test cases using i4i's UAT automation features, resulting in a 20% reduction in resource usage. Pioneered a project to rewrite regression tests to improve efficiency, resulting in 10% fewer regression test cases. Identified, analyzed, and documented bugs in the Portal product and A4L application using QaTraq."
+  
   - title: "Software Engineer"
     company: "Natural Resources Canada"
     duration: "Jan 2022 – Apr 2022"
-    description: 
-        - "Standardized digitization of +1,000 physical storm data using RStudio and supervised machine learning."
-        - "Improved storm recognition ML model prediction using cleaner training data, resulting in 40% increase in accuracy."
-        - "Migrated legacy codebase for magnetic data application from Pascal to C++ to improve maintainability."
-        - "Oversaw the creation of training documentation and became subject matter expert on image processing software."
+    description: "Standardized digitization of 1,000+ physical storm data records using RStudio and supervised machine learning. Improved storm recognition ML model prediction accuracy by 40% through cleaner training data preparation. Migrated a legacy codebase for a magnetic data application from Pascal to C++ to improve maintainability. Oversaw the creation of training documentation and became the subject matter expert on image processing software."
+  
   - title: "Data Scientist"
     company: "Sprint Data Systems"
     duration: "May 2021 – Aug 2021"
-    description: 
-        - "Gathered and analyzed 100,000+ usage and behaviour data by data mining client IP addresses and locations."
-        - "Optimized data mining and cleaning script using Bash, resulting in 30% speedup in processing time."
-        - "Collected and standardized 30,000+ courier package data into specific formats using Excel."
-        - "Created data pipeline using Python to clean and identify inconsistent customer data for analytics."
+    description: "Gathered and analyzed 100,000+ usage and behavior data points by data mining client IP addresses and locations. Optimized data mining and cleaning scripts using Bash, resulting in a 30% speedup in processing time. Collected and standardized 30,000+ courier package data entries into specific formats using Excel. Created a data pipeline using Python to clean and identify inconsistent customer data for analytics."
 
 education: 
   - school_name: "University of Waterloo"
