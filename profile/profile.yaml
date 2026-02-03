@@ -5,31 +5,29 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_Li
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: I am a University of Waterloo graduate with a Bachelor of Mathematics in Computational Mathematics and a Minor in Computing. My passion lies in data analysis and software,
-which I further pursued during my co-op terms. I have hands-on experience working as a Data Scientist and as a Data Engineer, where I built AI applications and solved business-driven
-problems. I am proficient in Python, SQL, Linux, and data frameworks such as pandas and PySpark, and I am skilled in translating data solutions into actionable insights. I am 
-currently seeking Data Scientist and Data Engineer roles where I can apply myself and solve complex real-world problems. My proven ability to produce results, from winning a 
-hackathon to pioneering projects as a team lead, demonstrates my ability as a valuable asset in any team. I look forward to the possibility of discussing my background in data science
-and engineering with you.
+summary: |-
+  I am a University of Waterloo graduate with a Bachelor of Mathematics in Computational Mathematics and a Minor in Computing. My passion lies in data analysis and software,
+  which I further pursued during my co-op terms. I have hands-on experience working as a Data Scientist and as a Data Engineer, where I built AI applications and solved business-driven
+  problems. I am proficient in Python, SQL, Linux, and data frameworks such as pandas and PySpark, and I am skilled in translating data solutions into actionable insights. I am 
+  currently seeking Data Scientist and Data Engineer roles where I can apply myself and solve complex real-world problems. My proven ability to produce results, from winning a 
+  hackathon to pioneering projects as a team lead, demonstrates my ability as a valuable asset in any team. I look forward to the possibility of discussing my background in data science
+  and engineering with you.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
-  # At least 5 skills
   proficient:
     - Python
     - AWS
     - Linux
     - SQL
     - Agile/Scrum
-  # At least 5 skills
   competent:
     - Java
     - Git
     - Pandas
     - R
     - PySpark
-  # At least 5 skills
   familiar:
     - GCP
     - Tableau
