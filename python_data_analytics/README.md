@@ -27,52 +27,40 @@ anonymous historical transaction data into a SQL file and shared it with the Jar
 
 [Retail Data Analytics Wrangling Notebook](./retail_data_analytics_wrangling.ipynb)
 
+Our marketing strategy looks at 3 segments: "At Risk", "Needs Attention" and "Potential Loyalists".
+
+Number of customers for each segment:
+
+At Risk = 752, Needs Attention = 272, Potential Loyalists = 742
+
+|| Mean Recency |Mean Frequency | Mean Monetary | 
+|:-----------|:-----------:|:------------:|:------------:|
+| At Risk       | 5552 days       | 4 purchases         | $1157.45        |
+| Needs Attention  | 5290 days       | 3 purchases         | $1100.24        |
+| Potential Loyalists      | 5184 days      | 23 purchases         | $10490.33        |
 
 
-3 segments selected for evaluation are "Can't Lose", "Hibernating" and "Champions".
+- At Risk Segment;
 
-Number of customers for segments:
-
-Can't Lose = 71, Hibernating = 1522, Champions = 852
-
-
-- Can't Lose Segment;
-
-    - The last shopping date of the customers is on average 353 days before.
-    - Customers have made an average of 16 purchases.
-    - Customers spent an average of £ 8356.
+    - This segment holds a large customer base of 752 customers and has had a decent past frequency and spend. Customers in this segment have not recently made a purchase
+      which puts them at risk of not spending any more money. Campaigns with personalized messages like "We miss you!" followed by a discount for their next order, coupled with
+      advertising products similar to ones they have purchased in the past, would greatly increase revenue.
 
 
-- Hibernating Segment;
+- Needs Attention;
 
-    - The last shopping date of the customers is 481 days before average.
-    - Customers made an average of 1 purchases.
-    - Customers spent an average of £ 438.
+    - This segment holds a medium-sized customer base of 272 customers and has a moderate frequency and spend. Customers in this segment are declining in engagement, so it is important to act fast. Campaigns that focus on engagement, like recommending products based on their purchase history or giving bundled discounts, would help this group that
+      only needs a nudge.
 
+- Potential Loyalists Segment;
 
-- Champions Segment;
-
-    - The last shopping date of the customers is 30 days before average.
-    - Customers made an average of 19 purchases.
-    - Customers spent an average of £ 10796.
-
-- Can't Lose Segment;
-
-    - Customers in this segment have not recently made a purchase. For this reason, we need to prepare a discount and gift campaign for this segment. These customers made a large number of purchases when they made purchases before. However, recency values are lower than they should be. The campaign to be implemented for these customers should include both items purchased and recommendations based on previous activities. New and popular products associated with the products that they were interested in can also be included in this campaign. Situations that will cause these customers to stop buying need to be investigated.
-
-
-- Hibernating Segment;
-
-    - Customers in this segment have not made a purchase for a long time. However, by offering discounts, they may be attracted to another purchase.
-
-
-- Champions Segment;
-
-    - Customers in this segment are responsible for most of the revenue. Campaigns should be implemented to ensure the continuity of the shopping of these customers.
-
-- Discuss how would you use the data to help LGS to increase their revenue (e.g. design a new marketing strategy with data you provided)
+    - This segment holds a large customer base of 742 customers and has a fairly recent frequency and moderate spending. Customers have strong potential to become loyal, which is the backbone of the company's future. Campaigns like loyalty perks, rewards for purchases, and personalized follow-ups after each purchase would increase the likelihood that they become loyal customers.
 
 # Improvements
-- List three improvements that you want to do if you got more time
+
+- Creating a new customer segment called "Churn," which would be a step higher than "At Risk," so you can offer higher discounts and bonuses to these customers.
+- Analyze customer purchasing behaviour based on seasons and/or holidays for better marketing and campaign ads.
+- Apply a K-means clustering on the customer segmentation, which would help with accuracy and find hidden behaviour groups.
+
 
 
