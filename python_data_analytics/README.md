@@ -17,8 +17,7 @@ The following project uses Python-based data analytics tools in the Jupyter Note
 
 # Implementation
 ## Project Architecture
-The LGS online store generates transactional data through its web application, which is stored in a relational database. For this proof-of-concept, the LGS IT team exported 
-anonymous historical transaction data into a SQL file and shared it with the Jarvis consulting team.
+The LGS online store generates transactional data through its web application, which is stored in a relational database. For this proof-of-concept, the LGS IT team exported anonymous historical transaction data into a SQL file and shared it with the Jarvis consulting team.
 
 ![my image](./pythonarc.drawio.png)
 
@@ -42,7 +41,7 @@ At Risk = 752, Needs Attention = 272, Potential Loyalists = 742
 
 - At Risk Segment;
 
-    - This segment holds a large customer base of 752 customers and has had a decent past frequency and spend. Customers in this segment have not recently made a purchase
+    - This segment holds a large customer base of 752 customers and has had a decent past frequency and spend. Customers in this segment have not recently made a purchase,
       which puts them at risk of not spending any more money. Campaigns with personalized messages like "We miss you!" followed by a discount for their next order, coupled with
       advertising products similar to ones they have purchased in the past, would greatly increase revenue.
 
@@ -61,6 +60,7 @@ At Risk = 752, Needs Attention = 272, Potential Loyalists = 742
 - Creating a new customer segment called "Churn," which would be a step higher than "At Risk," so you can offer higher discounts and bonuses to these customers.
 - Analyze customer purchasing behaviour based on seasons and/or holidays for better marketing and campaign ads.
 - Apply a K-means clustering on the customer segmentation, which would help with accuracy and find hidden behaviour groups.
+
 
 
 
