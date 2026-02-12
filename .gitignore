@@ -9,7 +9,7 @@ target/
 .idea/
 .eclipse
 
-# ===== Python =====
+# Python
 __pycache__/
 *.pyc
 *.pyo
@@ -20,12 +20,16 @@ venv/
 .venv/
 env/
 
-# ===== Jupyter =====
-.ipynb_checkpoints/
+# Site packages / installed libs
+lib/
+site-packages/
+
+# Jupyter
 .ipython/
 .jupyter/
 .local/
+.ipynb_checkpoints/
 
-# ===== OS =====
-.DS_Store
-Thumbs.db
+# pgadmin / sql environment
+sql/pgadmin4/
+
