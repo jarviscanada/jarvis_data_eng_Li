@@ -1,0 +1,31 @@
+# ===== Java (keep if needed) =====
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.iml
+.idea/
+.eclipse
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.local/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
