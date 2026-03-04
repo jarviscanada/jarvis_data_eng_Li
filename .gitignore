@@ -1,0 +1,35 @@
+# ===== Java (keep if needed) =====
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.logs
+*.iml
+.idea/
+.eclipse
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Site packages / installed libs
+lib/
+site-packages/
+
+# Jupyter
+.ipython/
+.jupyter/
+.local/
+.ipynb_checkpoints/
+
+# pgadmin / sql environment
+sql/pgadmin4/
+
