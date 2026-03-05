@@ -28,13 +28,17 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_Li](https:
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_Li/tree/master/core_java)]:
       
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
+  - Twitter App: Not Completed
+  - JDBC App: Not Completed
+  - Grep App: Developed a Java application that mimics the Linux grep command, allowing users to search and extract lines matching a specified regular expression from files within a directory structure.
 
 **Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_Li/tree/master/springboot)]: Not Started
 
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_Li/tree/master/python_data_anlytics)]: Not Started
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_Li/tree/master/python_data_anlytics)]:
+      
+  - Collected and analyzed LGS online retail transaction data using Python, Pandas, and NumPy in Jupyter Notebook.
+  - Cleaned and explored sales data from a SQL dataset to identify customer purchasing patterns and product trends.
+  - Provided insights to help the marketing team design targeted promotions and campaigns to improve customer engagement.
 
 **Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_Li/tree/master/hadoop)]: Not Started
 
@@ -55,7 +59,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_Li](https:
 
 ## Professional Experiences
 
-**Data Scientist, Jarvis (Jan 2026-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Data Scientist, Jarvis (Jan 2026-present)**: Built and automated a Linux cluster monitoring system that collects hardware specifications and real-time resource usage from multiple hosts, storing them in a centralized PostgreSQL database via Bash, Docker, and cron. Designed a relational PostgreSQL data model and developed analytical SQL queries to explore customer activity patterns, resource utilization, and cost drivers using business-oriented metrics. Analyzed multi-year e-commerce transaction data using Python (Pandas, NumPy) in Jupyter to uncover customer purchasing behaviour and support targeted marketing campaign strategies. Cut exploratory analysis time by 40% via automated data pre-processing and feature engineering.
 
 **Data Scientist, Innovation, Science and Economic Development Canada (Sept 2024 – Dec 2024)**: Developed an AI-powered application for the Canadian Intellectual Property Office that automates IP infringement detection and creates detailed asset descriptions, winning 1st place in the Fall 2024 AI Hackathon. Led the creation of an AI-powered data hub using AWS S3, Bedrock, and Lambda to support non-technical teams. Designed and delivered a comprehensive 6-week Python programming and data analysis course for non-technical professionals, covering fundamentals through advanced data manipulation with DataFrames. Constructed a data pipeline for weekly tasks using AWS Data Pipeline, saving 3+ hours of runtime weekly.
 
