@@ -14,6 +14,9 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+python_data_analytics/.cache/
+python_data_analytics/.cache/pip/
+python_data_analytics/.cache/jedi/
 
 # Virtual environments
 venv/
