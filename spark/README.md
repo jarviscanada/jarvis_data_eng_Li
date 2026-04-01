@@ -32,4 +32,6 @@ The LGS online store generates transactional data through its web application, w
 
 
 # Future Improvement
-- List at least three future improvements for this project
+-  Optimize Spark tuning by bucketing/partitioning my data more efficiently and caching/persisting my data more.
+-  Extend the project so the code is able to handle Spark streaming and update the data in real-time.
+-  Integrate machine learning to predict future values based on current data given.
