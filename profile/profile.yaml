@@ -48,8 +48,8 @@ jarvis_projects:
   - name: "Core Java Apps"
     git_url: "/core_java"
     description:
-      - "Twitter App: Not Completed"
-      - "JDBC App: Not Completed"
+      - "Twitter App: N/A"
+      - "JDBC App: N/A"
       - "Grep App: Developed a Java application that mimics the Linux grep command, allowing users to search and extract lines matching a specified regular expression from files within a directory structure."
   - name: "Python Data Analytics"
     git_url: "/python_data_anlytics"
