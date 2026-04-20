@@ -68,7 +68,7 @@ jarvis_projects:
     description:
           - "Built an end-to-end data engineering pipeline in Databricks using Medallion Architecture (Bronze/Silver/Gold), ingesting financial transaction datasets (CSV/JSON) from Azure SQL Database and Azure Storage via JDBC, ADF, and Lakeflow Connect for scalable ELT processing. "
           - "Designed and implemented a Databricks DLT (Delta Live Tables) pipeline to ingest daily stock market data from the Alpha Vantage API, applying bronze-to-gold transformations to produce cleaned datasets for price and volume trend analysis."
-
+          - "Orchestrated scheduled data workflows using Databricks Jobs to automate ingestion, pipeline execution, and downstream table refreshes, allowing for repeatable analytics-ready datasets and dashboarding from gold-layer insights."
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
