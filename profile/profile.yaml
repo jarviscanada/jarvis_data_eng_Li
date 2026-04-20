@@ -51,24 +51,23 @@ jarvis_projects:
       - "Twitter App: Not Completed"
       - "JDBC App: Not Completed"
       - "Grep App: Developed a Java application that mimics the Linux grep command, allowing users to search and extract lines matching a specified regular expression from files within a directory structure."
-  - name: "Springboot App"
-    git_url: "/springboot"
-    description: ""
   - name: "Python Data Analytics"
     git_url: "/python_data_anlytics"
     description:
       - "Collected and analyzed LGS online retail transaction data using Python, Pandas, and NumPy in Jupyter Notebook."
       - "Cleaned and explored sales data from a SQL dataset to identify customer purchasing patterns and product trends."
       - "Provided insights to help the marketing team design targeted promotions and campaigns to improve customer engagement."
-  - name: "Hadoop"
-    git_url: "/hadoop"
-    description: ""
   - name: "Spark"
     git_url: "/spark"
-    description: ""
-  - name: "Cloud/DevOps"
-    git_url: "/cloud_devops"
-    description: ""
+    description:
+          - "Designed and implemented a scalable data engineering solution for London Gift Shop (LGS) by migrating legacy Python-based analytics workflows to Apache Spark on Databricks and Apache Zeppelin, enabling distributed processing of large-scale transactional data across cluster environments."
+          - "Built an end-to-end data pipeline using PySpark, SQL, and Python libraries (pandas, NumPy, matplotlib, SQLAlchemy) to ingest, transform, and analyze customer transactions, uncovering insights into purchasing behavior, cancellations, and geographic trends."
+          - "Enabled data-driven marketing strategies by developing analytics-ready datasets and customer segmentation models, supporting targeted campaigns such as personalized promotions, event-based offers, and retention strategies to improve revenue growth and customer engagement."
+  - name: "Databricks"
+    git_url:  = "/databricks"
+    description:
+          - "Built an end-to-end data engineering pipeline in Databricks using Medallion Architecture (Bronze/Silver/Gold), ingesting financial transaction datasets (CSV/JSON) from Azure SQL Database and Azure Storage via JDBC, ADF, and Lakeflow Connect for scalable ELT processing. "
+          - "Designed and implemented a Databricks DLT (Delta Live Tables) pipeline to ingest daily stock market data from the Alpha Vantage API, applying bronze-to-gold transformations to produce cleaned datasets for price and volume trend analysis."
 
 # List of personal or academic projects
 # Feel free to add more projects
