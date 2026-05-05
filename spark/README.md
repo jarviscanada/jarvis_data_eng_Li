@@ -47,9 +47,7 @@ We first grab our stock data from Vantrage Api, which is then stored along with 
 
 [View Notebook](./notebook/Retail%20Data%20Analytics%20with%20PySpark.ipynb)
 
-[View JSON Data](./notebook/Spark%20Dataframe%20-%20WDI%20Data%20Analytics.json)
-
-![my image](./spark.drawio.png)
+[View JSON Data](./notebook/Spark%20Dataframe%20-%20WDI%20Data%20Analytics.json) 
 
 # Future Improvement
 -  Expand the number of data sources to compare across different outlets.
