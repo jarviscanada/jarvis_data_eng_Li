@@ -34,7 +34,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_Li](https:
 
 **Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_Li/tree/master/springboot)]: Not Started
 
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_Li/tree/master/python_data_anlytics)]:
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_Li/tree/master/python_data_analytics)]:
       
   - Collected and analyzed LGS online retail transaction data using Python, Pandas, and NumPy in Jupyter Notebook.
   - Cleaned and explored sales data from a SQL dataset to identify customer purchasing patterns and product trends.
