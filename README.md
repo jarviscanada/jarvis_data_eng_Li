@@ -28,23 +28,27 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_Li](https:
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_Li/tree/master/core_java)]:
       
-  - Twitter App: Not Completed
-  - JDBC App: Not Completed
+  - Twitter App: N/A
+  - JDBC App: N/A
   - Grep App: Developed a Java application that mimics the Linux grep command, allowing users to search and extract lines matching a specified regular expression from files within a directory structure.
 
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_Li/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_Li/tree/master/python_data_analytics)]:
+**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_Li/tree/master/python_data_anlytics)]:
       
   - Collected and analyzed LGS online retail transaction data using Python, Pandas, and NumPy in Jupyter Notebook.
   - Cleaned and explored sales data from a SQL dataset to identify customer purchasing patterns and product trends.
   - Provided insights to help the marketing team design targeted promotions and campaigns to improve customer engagement.
 
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_Li/tree/master/hadoop)]: Not Started
+**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_Li/tree/master/spark)]:
+      
+  - Designed and implemented a scalable data engineering solution for London Gift Shop (LGS) by migrating legacy Python-based analytics workflows to Apache Spark on Databricks and Apache Zeppelin, enabling distributed processing of large-scale transactional data across cluster environments.
+  - Built an end-to-end data pipeline using PySpark, SQL, and Python libraries (pandas, NumPy, matplotlib, SQLAlchemy) to ingest, transform, and analyze customer transactions, uncovering insights into purchasing behavior, cancellations, and geographic trends.
+  - Enabled data-driven marketing strategies by developing analytics-ready datasets and customer segmentation models, supporting targeted campaigns such as personalized promotions, event-based offers, and retention strategies to improve revenue growth and customer engagement.
 
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_Li/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_Li/tree/master/cloud_devops)]: Not Started
+**Databricks** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_Li/tree/master= "/databricks")]:
+      
+  - Built an end-to-end data engineering pipeline in Databricks using Medallion Architecture (Bronze/Silver/Gold), ingesting financial transaction datasets (CSV/JSON) from Azure SQL Database and Azure Storage via JDBC, ADF, and Lakeflow Connect for scalable ELT processing. 
+  - Designed and implemented a Databricks DLT (Delta Live Tables) pipeline to ingest daily stock market data from the Alpha Vantage API, applying bronze-to-gold transformations to produce cleaned datasets for price and volume trend analysis.
+  - Orchestrated scheduled data workflows using Databricks Jobs to automate ingestion, pipeline execution, and downstream table refreshes, allowing for repeatable analytics-ready datasets and dashboarding from gold-layer insights.
 
 
 ## Highlighted Projects
