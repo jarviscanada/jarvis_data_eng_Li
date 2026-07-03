@@ -40,3 +40,5 @@ capstone/data/*.csv
 capstone/data/*.pkl
 capstone/data/*.csv
 capstone/data/*.pkl
+capstone/data/*.csv
+capstone/data/*.pkl
