@@ -36,3 +36,7 @@ site-packages/
 # pgadmin / sql environment
 sql/pgadmin4/
 
+capstone/data/*.csv
+capstone/data/*.pkl
+capstone/data/*.csv
+capstone/data/*.pkl

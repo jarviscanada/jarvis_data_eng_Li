@@ -1,0 +1,13 @@
+{
+  "model_type": "Gradient Boosting",
+  "best_params": {
+    "subsample": 0.6,
+    "n_estimators": 500,
+    "min_samples_split": 2,
+    "max_depth": 3,
+    "learning_rate": 0.05
+  },
+  "test_auroc": 0.7609572893020252,
+  "test_auprc": 0.25226952387400814,
+  "saved_date": "2026-05-30"
+}
